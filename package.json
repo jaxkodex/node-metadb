@@ -1,0 +1,21 @@
+{
+  "name": "metadb",
+  "version": "1.0.0",
+  "description": "Database metadata client",
+  "main": "./lib/main.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec"
+  },
+  "keywords": [
+    "metadata",
+    "database"
+  ],
+  "author": "Jax Kodex <jkodex@gmail.com> (http://jaxkodex.github.io)",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5",
+    "pg": "^4.5.5",
+    "pg-promise": "^4.1.9"
+  }
+}
